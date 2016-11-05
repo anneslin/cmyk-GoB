@@ -92,7 +92,7 @@ window.onload = function(){
 	$("#button").click(function() {
     	$("#code").fadeIn();
     	$("#globe").css("animation","1s ease shake infinite");
-    });
+ 
     	mp = 200;
     	particles = [];
 		for(var i = 0; i < mp; i++)
@@ -106,6 +106,6 @@ window.onload = function(){
 		}
 		angle = 0
     	setInterval(draw, 33);
-    })
+    });
     
 }
