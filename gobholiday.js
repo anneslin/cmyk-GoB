@@ -90,8 +90,7 @@ window.onload = function(){
     $("#button").click(function() {
     	$("#code").fadeIn();
     	lotsofsnow = true;
-    })
+    	$("#globe").css("animation","1s ease shake infinite");
+    });
 
 }
-
-

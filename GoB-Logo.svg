@@ -1,11 +1,4 @@
-<head>
-    <title>Happy Holidays! - Games of Berkeley</title>
-
-    <link rel="stylesheet" href="gobholiday.css" type="text/css">
-</head>
-
-<body>
-	<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1076.5 482.4" style="enable-background:new 0 0 1076.5 482.4;" xml:space="preserve">
@@ -16,6 +9,7 @@
 	.st3{fill:#EEEFA3;}
 </style>
 <g id="hello">
+	
 		<image style="overflow:visible;" width="648" height="262" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAokAAAEHCAYAAADChdwUAAAACXBIWXMAAAeJAAAHiQH5c1i9AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAWYlJREFUeNrsnQu4XtO1/ock0oTt
 kgg2idjYSDVIiVQrle1S0lL0UJdWj2ip9uiFtufo5fjTOqhDD9rqTVu0VC+0qqrRKtFScd9B06iN
@@ -501,13 +495,3 @@ SUVORK5CYII=" transform="matrix(1.4702 0 0 1.4702 58.4502 69.8368)">
 	</g>
 </g>
 </svg>
-
-	<div id="globe-container">
-	    <canvas id="canvas"></canvas>
-	    <div id="code">DURANT</div>
-	    <img id ="globe" src="globe.png">
-	</div>
-	<div id="button">Click to Shake</div>
-    <script type="text/javascript" src="gobholiday.js"></script>
-    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-</body>
