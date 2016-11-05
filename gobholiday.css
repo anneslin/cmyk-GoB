@@ -13,6 +13,10 @@ body {
     margin-top: 5px;
 }
 
+#weblink:hover{
+	cursor: pointer;
+}
+
 svg {
 	position: absolute;
 	margin-top: 20px;
