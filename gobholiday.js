@@ -3,6 +3,8 @@ window.onload = function(){
 	var canvas = document.getElementById("canvas");
 	var ctx = canvas.getContext("2d");
 
+	var lotsofsnow = false;
+
 	//canvas dimensions
 	var W = window.innerWidth;
 	var H = window.innerHeight;
@@ -10,7 +12,7 @@ window.onload = function(){
 	canvas.height = H;
 
 	//snowflake particles
-	var mp = 2005; //max particles
+	var mp = 20; //max particles
 	var particles = [];
 	for(var i = 0; i < mp; i++)
 	{
@@ -25,6 +27,7 @@ window.onload = function(){
 	//Lets draw the flakes
 	function draw()
 	{
+
 		ctx.clearRect(0, 0, W, H);
 
 		ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
@@ -83,4 +86,12 @@ window.onload = function(){
 
     //animation loop
     setInterval(draw, 33);
+
+    $("#button").click(function() {
+    	$("#code").fadeIn();
+    	lotsofsnow = true;
+    })
+
 }
+
+

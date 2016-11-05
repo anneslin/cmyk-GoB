@@ -23,11 +23,12 @@ body {
     width: 400px;
     height: 550px;
     margin: 0 auto;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
 }
 
 #code {
+	display: none;
 	color: white;
 	font-family: Helvetica;
 	font-weight: 800;
@@ -38,4 +39,23 @@ body {
 	left: 50%;
 	top: 30%;
 	transform: translateX(-50%);
+}
+
+#button {
+	position: absolute;
+	background: #E81A4B;
+	padding: 15px 15px;
+	border-radius: 3px;
+	color: white;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	left: 50%;
+	margin-top: 100px;
+	transform: translateX(-50%);
+}
+
+#button:hover {
+	cursor: pointer;
 }
